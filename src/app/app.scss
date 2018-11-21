@@ -1,0 +1,54 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.scroll-content{
+  background-image: url(../../assets/imgs/bsblogo1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 1.0;
+}
+
+.about-bsb {
+  text-align: center;
+  font-size: 15px;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.tabbar.show-tabbar, .tab {
+  background-color: rgba(228, 135, 13, 0.973);
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+  color: black !important;
+}
+
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+  color: black !important;
+}
+
+.title-card {
+  background-color: lightgray;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 25px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;  
+}
+

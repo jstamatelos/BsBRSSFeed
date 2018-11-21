@@ -1,0 +1,18 @@
+<ion-content padding>
+
+  <ion-card class="title-card" *ngFor="let item of articles">
+    
+    <ion-card-header>{{item.title}}</ion-card-header>
+    <div class = "card-description">
+        <ion-card-content text-wrap [innerHtml]="item.description"></ion-card-content>
+    </div>
+
+    <div class="play-button">
+        <button ion-button color="dark" full (click)='playPodCast(item.enclosure.url);'>
+            <ion-icon color="flyorange" name="play"></ion-icon>
+          </button>
+    </div>
+
+  </ion-card>
+
+</ion-content>
